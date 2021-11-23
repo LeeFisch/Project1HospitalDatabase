@@ -132,7 +132,7 @@ FOREIGN KEY (StaffID) REFERENCES Staff(StaffID)
 CREATE TABLE PharmaceuticalSupplies(
 DrugID int, 
 DrugName varchar(50), 
-SupplierNumber int, 
+SupplierID int, 
 Description varchar(50), 
 Dosage int, 
 MOA varchar(50),
